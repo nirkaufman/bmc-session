@@ -8,6 +8,8 @@ import { SidebarComponent } from './sidebar.component';
 import { MainComponent } from './main.component';
 import { DashboardComponent } from './dashboard.component';
 import { UsersComponent } from './users.component';
+import { TargetDirective } from './teleport/target.directive';
+import { RenderToDirective } from './teleport/render-to.directive';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { UsersComponent } from './users.component';
     MainComponent,
     DashboardComponent,
     UsersComponent,
+    TargetDirective,
+    RenderToDirective,
   ],
   imports: [
     BrowserModule,

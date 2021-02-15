@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
           </button>
           <ul class="navbar-nav px-3">
               <li class="nav-item text-nowrap">
-                  <a class="nav-link" href="#">Sign out</a>
+                  <ng-template target="navbar"></ng-template>
               </li>
           </ul>
       </header>
