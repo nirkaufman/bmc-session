@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-users',
@@ -7,13 +7,15 @@ import { Component, OnInit } from '@angular/core';
       users works!
     </p>
     
-    <button (click)="doSomething()" *renderTo="'navbar'">click me!</button>
+    <button (click)="doSomething()" 
+            *renderTo="'navbar'">click me!</button>
     
   `,
   styles: [
   ]
 })
 export class UsersComponent implements OnInit {
+  @Output() event;
 
   constructor() { }
 
