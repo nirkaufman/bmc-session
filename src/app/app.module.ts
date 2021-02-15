@@ -6,6 +6,8 @@ import {ReactiveFormsModule} from "@angular/forms";
 import { NavbarComponent } from './navbar.component';
 import { SidebarComponent } from './sidebar.component';
 import { MainComponent } from './main.component';
+import { DashboardComponent } from './dashboard.component';
+import { UsersComponent } from './users.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { MainComponent } from './main.component';
     NavbarComponent,
     SidebarComponent,
     MainComponent,
+    DashboardComponent,
+    UsersComponent,
   ],
   imports: [
     BrowserModule,
